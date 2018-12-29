@@ -40,3 +40,15 @@ set wildmode=list:longest
 " Complete the next full match. After the last match, ithe original string is
 " used and then the first match again.
 set wildmode+=full
+
+" Visual elements
+" Used theme: https://github.com/lifepillar/vim-solarized8
+
+" Set background color
+set background=light
+
+" Set color scheme to solarized
+colorscheme solarized8
+
+" Enable 24-bit colors
+set termguicolors
