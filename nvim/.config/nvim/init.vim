@@ -21,15 +21,15 @@
 "           search {
                 set hlsearch    " Highlight all search matches
                 set incsearch   " Highlight matches while entering search pattern
-"          }
+"           }
 
-"          theme {
+"           theme {
 "               https://github.com/lifepillar/vim-solarized8
                 set background=light    " Set background color
                 colorscheme solarized8  " Set color scheme to solarized
-"          }
+"           }
 
-"          wildmenu {
+"           wildmenu {
                 set wildmenu                " Enable menu at the bottom
                 set wildmode=list:longest   " List all matches and complete until longest common string
                 set wildmode+=full          " Complete the next full match
