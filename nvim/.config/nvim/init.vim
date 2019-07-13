@@ -1,51 +1,31 @@
-" Highlight 80th column
-set colorcolumn=80
-
-" Highlight the screen line of the cursor
-set cursorline
-
-" Use spaces when hitting tab
-set expandtab
-
-" Highlight all search matches
-set hlsearch
-
-" Highlight matches while entering search pattern
-set incsearch
-
-" Disable wrapping
-set nowrap
-
-" Enable line numbers
-set number
-
-" Enable syntax highlighting
-syntax on
-
-" Use 4 spaces when indenting with '>' or unindenting with '<'
-set shiftwidth=4
-
-" Wrap the text at 80 characters
-set textwidth=80
-
-" Enable menu at the bottom
-set wildmenu
-
-" List all matches and complete until longest common string
-set wildmode=list:longest
-
-" Complete the next full match. After the last match, ithe original string is
-" used and then the first match again.
-set wildmode+=full
-
-" Visual elements
-" Used theme: https://github.com/lifepillar/vim-solarized8
-
-" Set background color
-set background=light
-
-" Set color scheme to solarized
-colorscheme solarized8
-
-" Enable 24-bit colors
-set termguicolors
+" General settings {
+"
+"       formatting {
+            set expandtab       " Use spaces when hitting tab
+            set nowrap          " Disable wrapping
+            set shiftwidth=4    " Use 4 spaces when indenting with '>' or unindenting with '<'
+            set textwidth=80    " Wrap the text at 80 characters
+"       }
+"
+"       ui {
+            set cursorline              " Highlight the screen line of the cursor
+            set colorcolumn=80          " Highlight 80th column
+            set number                  " Enable line numbers
+            set termguicolors           " Enable 24-bit colors
+            set wildmenu                " Enable menu at the bottom
+            set wildmode=list:longest   " List all matches and complete until longest common string
+            set wildmode+=full          " Complete the next full match
+            syntax on                   " Enable syntax highlighting
+"
+"           search {
+                set hlsearch    " Highlight all search matches
+                set incsearch   " Highlight matches while entering search pattern
+"          }
+"
+"          theme {
+"               https://github.com/lifepillar/vim-solarized8
+                set background=light    " Set background color
+                colorscheme solarized8  " Set color scheme to solarized
+"          }
+"       }
+" }
