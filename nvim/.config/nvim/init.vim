@@ -13,6 +13,11 @@
             set termguicolors           " Enable 24-bit colors
             syntax on                   " Enable syntax highlighting
 
+"           listchars {
+                set list                        " Enable special character rendering
+                set listchars=tab:▸\ ,trail:_   " Set characters for tab and trailing spaces
+"           }
+
 "           search {
                 set hlsearch    " Highlight all search matches
                 set incsearch   " Highlight matches while entering search pattern
