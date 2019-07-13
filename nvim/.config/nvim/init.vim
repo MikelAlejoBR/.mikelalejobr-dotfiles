@@ -11,9 +11,6 @@
             set colorcolumn=80          " Highlight 80th column
             set number                  " Enable line numbers
             set termguicolors           " Enable 24-bit colors
-            set wildmenu                " Enable menu at the bottom
-            set wildmode=list:longest   " List all matches and complete until longest common string
-            set wildmode+=full          " Complete the next full match
             syntax on                   " Enable syntax highlighting
 "
 "           search {
@@ -26,5 +23,11 @@
                 set background=light    " Set background color
                 colorscheme solarized8  " Set color scheme to solarized
 "          }
+
+"          wildmenu {
+                set wildmenu                " Enable menu at the bottom
+                set wildmode=list:longest   " List all matches and complete until longest common string
+                set wildmode+=full          " Complete the next full match
+"           }
 "       }
 " }
