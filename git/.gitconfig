@@ -3,4 +3,4 @@
     email   = mikelalejobr@outlook.com
 
 [core]
-    editor = vim
+    editor = nvim
