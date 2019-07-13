@@ -4,7 +4,6 @@
             set expandtab       " Use spaces when hitting tab
             set nowrap          " Disable wrapping
             set shiftwidth=4    " Use 4 spaces when indenting with '>' or unindenting with '<'
-            set textwidth=80    " Wrap the text at 80 characters
 "       }
 "
 "       ui {
