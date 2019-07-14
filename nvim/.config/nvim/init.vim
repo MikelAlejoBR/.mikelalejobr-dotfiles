@@ -35,4 +35,8 @@
                 set wildmode+=full          " Complete the next full match
 "           }
 "       }
+
+"       plugins {
+            source ~/.config/nvim/plugins.vim
+"       }
 " }
