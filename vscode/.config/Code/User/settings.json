@@ -1,7 +1,7 @@
 {
     "editor.cursorBlinking":                "phase",
     "editor.cursorSmoothCaretAnimation":    false,
-    "editor.fontFamily":                    "'IBM Plex Mono', 'Fira Code', Source Code Pro, Inconsolata, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily":                    "Iosevka, 'Ubuntu Mono', 'IBM Plex Mono', 'Fira Code', Source Code Pro, Inconsolata, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures":                 false,
     "editor.fontSize":                      12,
     "editor.minimap.enabled":               true,
