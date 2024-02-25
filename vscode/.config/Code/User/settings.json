@@ -1,12 +1,12 @@
 {
     "editor.cursorBlinking":                "phase",
-    "editor.cursorSmoothCaretAnimation":    false,
+    "editor.cursorSmoothCaretAnimation":    "off",
     "editor.fontFamily":                    "Iosevka, 'Ubuntu Mono', 'IBM Plex Mono', 'Fira Code', Source Code Pro, Inconsolata, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures":                 false,
     "editor.fontSize":                      12,
     "editor.minimap.enabled":               true,
     "editor.minimap.renderCharacters":      false,
-    "editor.renderFinalNewline":            true,
+    "editor.renderFinalNewline":            "on",
     "editor.renderWhitespace":              "boundary",
     "editor.rulers":                        [80, 120],
     "editor.smoothScrolling":               true,
@@ -55,9 +55,7 @@
     "shellcheck.useWSL": false,
 
     "window.titleBarStyle": "custom",
-    "window.zoomLevel":     0,
-
-    "workbench.activityBar.visible":                    true,
+    "window.zoomLevel": 0,
     "workbench.colorTheme":                             "Solarized Light",
     "workbench.editor.enablePreview":                   false,
     "workbench.editor.enablePreviewFromQuickOpen":      false,
