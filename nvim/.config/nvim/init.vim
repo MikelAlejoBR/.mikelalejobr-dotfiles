@@ -1,5 +1,8 @@
 " General settings {
-
+"       plugins {
+            source ~/.config/nvim/plugins.vim
+"       }
+"
 "       formatting {
             set expandtab       " Use spaces when hitting tab
             set nowrap          " Disable wrapping
@@ -25,7 +28,7 @@
 
 "           theme {
 "               https://github.com/lifepillar/vim-solarized8
-                set background=light    " Set background color
+                set background=dark     " Set background color
                 colorscheme solarized8  " Set color scheme to solarized
 "           }
 
@@ -34,9 +37,5 @@
                 set wildmode=list:longest   " List all matches and complete until longest common string
                 set wildmode+=full          " Complete the next full match
 "           }
-"       }
-
-"       plugins {
-            source ~/.config/nvim/plugins.vim
 "       }
 " }

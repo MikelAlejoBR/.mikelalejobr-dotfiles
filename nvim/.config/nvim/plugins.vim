@@ -2,6 +2,7 @@
 "   https://github.com/junegunn/vim-plug
     call plug#begin('~/.vim/plugged')
 
+    Plug 'lifepillar/vim-solarized8'    " Solarized theme
     Plug 'scrooloose/nerdtree'          " File explorer
     Plug 'vim-airline/vim-airline'      " Bottom status bar
     Plug 'vim-airline/vim-airline-themes'
