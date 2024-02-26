@@ -3,7 +3,7 @@
     "editor.cursorSmoothCaretAnimation":    "off",
     "editor.fontFamily":                    "Iosevka, 'Ubuntu Mono', 'IBM Plex Mono', 'Fira Code', Source Code Pro, Inconsolata, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures":                 false,
-    "editor.fontSize":                      12,
+    "editor.fontSize":                      14,
     "editor.minimap.enabled":               true,
     "editor.minimap.renderCharacters":      false,
     "editor.renderFinalNewline":            "on",
